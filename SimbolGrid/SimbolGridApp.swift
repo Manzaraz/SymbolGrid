@@ -11,7 +11,9 @@ import SwiftUI
 struct SimbolGridApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                SimbolGrid()
+            }
         }
     }
 }
